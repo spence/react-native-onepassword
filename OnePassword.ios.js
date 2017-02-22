@@ -30,6 +30,18 @@ var OnePassword = {
                 resolve(data);
             });
         });
+    },
+
+    storeLogin(url, details, generationOptions) {
+        return new Promise(function(resolve, reject) {
+            NativeOnePassword.storeLogin(url, details, generationOptions, function(error, data) {
+                if (error) {
+                    return reject(error.message);
+                }
+
+                resolve(data);
+            })
+        });
     }
 };
 
