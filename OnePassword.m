@@ -63,9 +63,9 @@ RCT_EXPORT_METHOD(storeLogin: (NSString *)url
             callback(@[[NSNull null], @{
                                 @"username": loginDictionary[AppExtensionUsernameKey],
                                 @"password": loginDictionary[AppExtensionPasswordKey]
-                           }])
+                           }]);
         }];
-    })
+    });
 }
 
 - (NSDictionary *)constantsToExport
