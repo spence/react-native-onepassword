@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		13BE3DEE1AC21097009241FE /* OnePassword.m in Sources */ = {isa = PBXBuildFile; fileRef = 13BE3DED1AC21097009241FE /* OnePassword.m */; };
 		52BC590A1C0650F9004BBD50 /* OnePasswordExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BC59091C0650F9004BBD50 /* OnePasswordExtension.m */; };
+		B14A2E8B1E603B750054C1CB /* UIWindow+VisibleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B14A2E8A1E603B750054C1CB /* UIWindow+VisibleViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +30,8 @@
 		52BC59081C0650F9004BBD50 /* OnePasswordExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OnePasswordExtension.h; path = ../1PasswordExtension/OnePasswordExtension.h; sourceTree = "<group>"; };
 		52BC59091C0650F9004BBD50 /* OnePasswordExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OnePasswordExtension.m; path = ../1PasswordExtension/OnePasswordExtension.m; sourceTree = "<group>"; };
 		52E319201C0655C200265D56 /* libOnePassword.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libOnePassword.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B14A2E891E603B750054C1CB /* UIWindow+VisibleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+VisibleViewController.h"; sourceTree = "<group>"; };
+		B14A2E8A1E603B750054C1CB /* UIWindow+VisibleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+VisibleViewController.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +48,8 @@
 		52BC59071C0650E4004BBD50 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B14A2E891E603B750054C1CB /* UIWindow+VisibleViewController.h */,
+				B14A2E8A1E603B750054C1CB /* UIWindow+VisibleViewController.m */,
 				52BC59081C0650F9004BBD50 /* OnePasswordExtension.h */,
 				52BC59091C0650F9004BBD50 /* OnePasswordExtension.m */,
 			);
@@ -125,6 +130,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B14A2E8B1E603B750054C1CB /* UIWindow+VisibleViewController.m in Sources */,
 				13BE3DEE1AC21097009241FE /* OnePassword.m in Sources */,
 				52BC590A1C0650F9004BBD50 /* OnePasswordExtension.m in Sources */,
 			);

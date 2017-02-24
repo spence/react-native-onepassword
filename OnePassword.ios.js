@@ -20,6 +20,18 @@ var OnePassword = {
         });
     },
 
+    changeLogin(url, details, generationOptions) {
+        return new Promise(function(resolve, reject) {
+            NativeOnePassword.changeLogin(url, details, generationOptions, function(error, data) {
+                if (error) {
+                    return reject(error.message);
+                }
+
+                resolve(data);
+            })
+        });
+    },
+
     findLogin(url) {
         return new Promise(function(resolve, reject) {
             NativeOnePassword.findLogin(url, function(error, data) {
